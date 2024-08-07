@@ -21,21 +21,21 @@ const Carousel = () => {
   return (
     <div className="carousel">
       <Slider {...settings}>
-        <div className="carousel-item">
+        <div className="carousel-item-collection">
           <img src={Boxer} alt="Boxers" />
           <div className="carousel-caption">
             <h3>Boxers</h3>
             <p>Explore the collection here</p>
           </div>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item-collection">
           <img src={Socks} alt="Socks" />
           <div className="carousel-caption">
             <h3>Socks</h3>
             <p>Explore the collection here</p>
           </div>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item-collection">
           <img src={Hats} alt="Hats" />
           <div className="carousel-caption">
             <h3>Hats</h3>
@@ -52,8 +52,8 @@ function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={className}
-      style={{ ...style, display: 'block', background: '#A4E311' }}
+      className={`${className} custom-arrow custom-next-arrow`}
+      style={{ ...style, display: 'block' }}
       onClick={onClick}
     />
   );
@@ -63,8 +63,8 @@ function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={className}
-      style={{ ...style, display: 'block', background: '#A4E311' }}
+      className={`${className} custom-arrow custom-prev-arrow`}
+      style={{ ...style, display: 'block' }}
       onClick={onClick}
     />
   );
