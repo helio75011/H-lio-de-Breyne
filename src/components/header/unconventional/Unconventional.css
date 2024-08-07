@@ -20,21 +20,22 @@
   }
   
   .content {
-    text-align: center;
+    /* text-align: center; */
     color: white;
   }
   
   .content h1 {
     font-size: 3em;
     margin-bottom: 20px;
+    width: 60%;
   }
   
   .shop-button {
     background-color: #A4E311; /* Light green color */
     color: black;
-    padding: 10px 20px;
+    padding: 15px 40px;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
     font-size: 1em;
     cursor: pointer;
     text-decoration: none;

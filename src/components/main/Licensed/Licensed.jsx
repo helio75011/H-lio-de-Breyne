@@ -30,7 +30,7 @@ const Licensed = () => {
       <h2>Licensed Brands</h2>
       <Slider {...settings}>
         {brands.map((brand, index) => (
-          <div className="brand-item" key={index}>
+          <div className="brand-item" key={index} style={{ width: "0%" }}>
             <img src={brand.logo} alt={brand.name} className="brand-logo" />
           </div>
         ))}
