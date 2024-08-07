@@ -1,0 +1,17 @@
+.twobanner {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .twofree-shipping {
+    color: #000; /* Light green color */
+    font-weight: bold;
+  }
+  
+  .twosubscribe {
+    color: #000;
+    font-weight: bold;
+  }

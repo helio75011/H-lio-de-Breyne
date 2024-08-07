@@ -1,0 +1,46 @@
+.hero-section {
+    background: url('./uploads/Header.png') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+    color: white;
+  }
+  
+  .content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .shop-button {
+    background-color: #A4E311; /* Light green color */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .shop-button:hover {
+    background-color: #8bc60d; /* Darker green on hover */
+  }
+  

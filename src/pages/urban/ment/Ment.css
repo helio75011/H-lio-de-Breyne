@@ -1,0 +1,87 @@
+.ment-for-you {
+    background: url('./uploads/Header.png') no-repeat center center/cover;
+    padding: 50px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .ment-category-banner {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .ment-category-banner h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .ment-category-banner h1 {
+    font-size: 3em;
+    margin-bottom: 5px;
+  }
+  
+  .ment-category-banner p {
+    font-size: 1.5em;
+  }
+  
+  .ment-product-grid {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .ment-product-item {
+    background-color: #111;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .ment-product-item.ment-large {
+    flex: 2 1 60%;
+  }
+  
+  .ment-product-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1 1 38%;
+  }
+  
+  .ment-product-item.ment-small {
+    flex: 1 1 auto;
+  }
+  
+  .ment-product-image {
+    position: relative;
+  }
+  
+  .ment-product-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .ment-wishlist-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .ment-product-info {
+    padding: 20px;
+  }
+  
+  .ment-product-info h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .ment-product-info p {
+    font-size: 1em;
+    color: #A4E311;
+  }  

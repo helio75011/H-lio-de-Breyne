@@ -1,0 +1,29 @@
+.licensed-brands {
+    margin: 50px auto;
+    width: 80%;
+    color: white;
+    text-align: center;
+  }
+  
+  .licensed-brands h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .brand-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+  }
+  
+  .brand-logo {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: white;
+  }
+  

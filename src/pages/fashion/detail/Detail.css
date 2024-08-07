@@ -1,0 +1,131 @@
+.product-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .product-images {
+    flex: 1;
+  }
+  
+  .main-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .thumbnail-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .thumbnail-images img {
+    width: 48%;
+    border-radius: 10px;
+  }
+  
+  .product-details {
+    flex: 1;
+    padding-left: 50px;
+  }
+  
+  .product-details h1 {
+    font-size: 2.5em;
+  }
+  
+  .product-details p {
+    font-size: 1.2em;
+    color: #888;
+  }
+  
+  .product-details h2 {
+    font-size: 2em;
+    color: #A4E311;
+    margin-top: 20px;
+  }
+  
+  .colors, .sizes {
+    margin-top: 20px;
+  }
+  
+  .colors p, .sizes p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .color-options {
+    display: flex;
+  }
+  
+  .color-option {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .color-option.green { background-color: green; }
+  .color-option.yellow { background-color: yellow; }
+  .color-option.red { background-color: red; }
+  .color-option.blue { background-color: blue; }
+  
+  .size-options {
+    display: flex;
+  }
+  
+  .size-option {
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .add-to-bag {
+    background-color: #A4E311;
+    color: #000;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .add-to-wishlist {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .product-description {
+    margin-top: 30px;
+  }
+  
+  .product-description h3 {
+    margin-bottom: 10px;
+  }
+  
+  .product-description p {
+    color: #888;
+  }
+  
+  .share-product {
+    background-color: #000;
+    color: #A4E311;
+    padding: 15px;
+    border: 1px solid #A4E311;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+  }
+  

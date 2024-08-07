@@ -1,0 +1,18 @@
+.banner {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .free-shipping {
+    color: #A4E311; /* Light green color */
+    font-weight: bold;
+  }
+  
+  .subscribe {
+    color: white;
+    font-weight: bold;
+  }
+  

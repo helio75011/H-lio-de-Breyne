@@ -1,0 +1,63 @@
+.hypno-news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B0FF00;
+    padding: 50px;
+    color: black;
+  }
+  
+  .left-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .left-section h3 {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  .left-section h3 span {
+    text-decoration: underline;
+  }
+  
+  .arrow-button {
+    background: none;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  .right-section {
+    text-align: left;
+  }
+  
+  .right-section p {
+    margin-bottom: 20px;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscribe-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    width: 250px;
+  }
+  
+  .subscribe-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #444;
+  }
+  

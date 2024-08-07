@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 50px; /* Adjust as needed */
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .navigation a:hover {
+    color: #A4E311; /* Light green color */
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icons a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .icons a:hover {
+    color: #A4E311; /* Light green color */
+  }
+  
